@@ -1,0 +1,42 @@
+@media screen and (max-width: 1270px){
+    .container .box-img{
+        display: none;
+    }
+
+    .container .box-text, .informacoes-agendamento, .informacoes-seguranca, header, .rodape div{
+        display: block;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 770px){
+    .lista-seguranca{
+        text-align: center;
+    }
+
+    .lista-seguranca li{
+        text-align: center;
+        width: 60%;
+        padding: 15px;
+        display: block;
+        margin: 30px auto 0 auto;
+    }
+}
+
+@media screen and (max-width: 540px){
+    html{
+        font-size: 50%;
+    }
+
+    .botao{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 430px){
+    html{
+        font-size: 40%;
+    }
+}

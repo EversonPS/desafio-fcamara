@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0
+}
+
+html{
+    font-size: 60%;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2.5rem;
+    font-size: 1.6rem;
+}
+
+header{
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .logo{
+    min-width: 100px;
+    width: 15%;
+    padding: 20px 0;
+}
+
+/* Principal */
+
+.principal{
+    background-color: #4b4fa1;
+}
+
+.container{
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 0;
+    color: white;
+}
+
+.container .box-text{
+    width: 50%;
+    display: inline-block;
+}
+
+.container .box-img{
+    width: 49%;
+    display: inline-block;
+    text-align: right;
+}
+
+.box-img img{
+    width: 85%;
+    border-radius: 100%;
+}
+
+.container p{
+    width: 90%;
+}
+
+.container h2{
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.container h3{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.container p{
+    margin-bottom: 20px;
+}
+
+.box-text strong{
+    background-color: white;
+    color: #4b4fa1;
+    padding: 0 3px;
+}
+
+.botao{
+    display: block;
+    padding: 1rem 0;
+    text-decoration: none;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1.6rem;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    transition-duration: 2s;
+}
+
+.botao:hover{
+    cursor: pointer;
+    color: white;
+    background: #4b4fa1;
+}
+
+.marcar-cons{   
+    color: #4b4fa1;
+    background: white;
+}
+
+.marcar-cons:hover{
+    box-shadow: 1px 2px 2px #1C1C1C;
+}
+
+/* Section informacoes */
+
+.informacoes{
+    max-width: 940px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.informacoes h2{
+    font-size: 3rem;
+    color: rgb(239, 101, 59);
+    margin-bottom: 20px;
+}
+
+.informacoes-agendamento p{
+    margin-bottom: 15px;
+}
+
+.informacoes-agendamento .sangue-laranja{
+    color: rgb(239, 101, 59);
+    font-style: normal;
+    font-weight: bold;
+}
+.informacoes-seguranca{
+    max-width: 940px;
+    width: 100%;
+    margin: 80px auto 30px auto;
+}
+
+.informacoes-seguranca h3{
+    font-size: 2.5rem;
+    color: rgb(239, 101, 59);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.lista-seguranca{
+    list-style: none;
+    text-align: center;
+}
+
+.lista-seguranca li{
+    width: 28%;
+    padding: 15px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+}
+
+.lista-seguranca strong{
+    font-size: 1.5rem;
+    color: #4b4fa1;
+}
+.lista-seguranca i{
+    color: #4b4fa1;
+}
+
+.lista-seguranca p{
+    margin-top: 20px;
+}
+
+/* Rodapé */
+
+.rodape{
+    padding: 50px 0 65px 0;
+    background-color: #1C1C1C;
+    text-align: center;
+    color: white;
+}
+
+.rodape img{
+    min-width: 150px;
+    width: 17%;
+    margin-bottom: 10px;
+}
+
+.rodape h2{
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+
+.marcar-cons-rodape{
+    color: #4b4fa1;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.marcar-cons-rodape:hover{
+    box-shadow: 1px 2px 4px #000000;
+    color: white;
+    background: #4b4fa1;
+}
